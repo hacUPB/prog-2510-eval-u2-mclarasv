@@ -28,10 +28,10 @@ El trabajo de Bool es fundamental para la computación moderna, ya que permite r
 - $10000000_2$: 128= 128
 - $100100100_2$:8+64+512= 584
 ## Conversión de decimales a binarios
-- $127_{10}$
-- $246_{10}$
-- $1025_{10}$
-- $354_{10}$
+- $127_{10}$= 1111111.
+- $246_{10}$= 11110110
+- $1025_{10}$= 10000000001
+- $354_{10}$= 101100010
 ## Datos que se utilizan en los lenguajes de programación
 En programación, los lenguajes como C, Java y Python ofrecen diferentes tipos de datos para representar información. A continuación, se detallan los tipos de datos más comunes en cada lenguaje, junto con sus nombres y abreviaturas:
 
@@ -91,3 +91,31 @@ Aquí tienes una tabla organizada con los tipos de datos de los lenguajes de pro
 - **Java** utiliza `String` para cadenas de texto y tiene un tipo `boolean` para valores lógicos.
 - En **Python**, además de `int`, `float` y `bool`, se tiene el tipo `complex` para trabajar con números complejos.
 ## Ejercicio de calculo de memoria
+
+- **Número entero (ID)**: 4 bytes
+- **Temperatura (número decimal)**: 4 bytes
+- **Valor lógico (verdadero o falso)**: 1 byte
+- **Texto con 10 caracteres**: 10 bytes
+
+
+4 + 4 + 1 + 10 = 19 
+
+
+- Hay 86,400 segundos en 24 horas.
+- Los datos se guardan cada 10 segundos, por lo que el número de registros será:
+
+86,400 segundos/10= 8,64 registros
+
+
+Si cada registro ocupa 19 bytes, entonces el espacio total para 8,640 registros será:
+
+8,640\19= 164,160 bytes
+
+Así que el espacio total necesario para almacenar todos los datos durante 24 horas es de 164,160 bytes.
+
+## Conclusión 
+Aprendí que los datos en las computadoras se representan con ceros y unos (código binario). Los diferentes tipos de datos (como enteros, flotantes, booleanos y texto) ocupan diferentes cantidades de memoria. Por ejemplo, un número entero generalmente ocupa 4 bytes, mientras que un valor booleano ocupa solo 1 byte. 
+
+También aprendí que en diferentes lenguajes de programación, como C, Java y Python, se usan diferentes nombres y tamaños para los tipos de datos, pero el concepto básico de la representación binaria sigue siendo el mismo.
+
+Finalmente, al calcular cuánto espacio se necesitaría para almacenar ciertos datos cada 10 segundos durante 24 horas, descubrí que se requerirían 164,160 bytes. Esto me ayudó a entender cómo la representación y almacenamiento de datos afecta el uso de memoria en las computadoras.
