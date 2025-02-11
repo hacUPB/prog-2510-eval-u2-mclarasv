@@ -72,7 +72,6 @@ En programación, los lenguajes como C, Java y Python ofrecen diferentes tipos d
 Cada lenguaje tiene sus particularidades en la implementación y uso de estos tipos de datos, lo que influye en la forma en que se manejan y manipulan los datos en los programas. 
 
 ### **Organizacion de los datos:**
-Aquí tienes una tabla organizada con los tipos de datos de los lenguajes de programación C, Java y Python, que incluye el nombre de la variable, la abreviatura (si existe) y sus características principales:
 
 | **Nombre de la Variable** | **Abreviación** | **Características Principales**                                   |
 |---------------------------|-----------------|--------------------------------------------------------------------|
