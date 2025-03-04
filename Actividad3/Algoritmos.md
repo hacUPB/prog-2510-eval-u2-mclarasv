@@ -22,8 +22,8 @@
 
 1. **Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños:** no es un algoritmo, porque no muestra unas instrucciones claras y tiene órdenes vagas.
 2. **Suma los números ingresados y muestra el resultado:** cumple con las condiciones de un algoritmo, porque muestra un proceso claro y sencillo.
-3. **Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura:** describe un proceso claro y definido para calcular el área de un rectángulo, con pasos finitos y de manera clara.
-4. **El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1:** nos dice de manera facil lo que se tiene que hacer, con una cantidad de pasos finitos y un final claro.
+3. **Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura:** si es un algoritmo porque describe un proceso claro y definido para calcular el área de un rectángulo, con pasos finitos y de manera clara.
+4. **El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1:** nos dice de manera facil lo que se tiene que hacer, con una cantidad de pasos finitos y un final claro, por lo que si es un algoritmo.
 ### Comprensión de herramientas
 
 1. **El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas:** Falso
