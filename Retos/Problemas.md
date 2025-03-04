@@ -5,6 +5,7 @@ que representen el algoritmo para obtener la distancia entre
 esos puntos.
 
 **pseudocódigo:**  
+```
 Inicio  
 leer x1, y1, x2, y2  
 p1 = x2 - x1  
@@ -12,7 +13,7 @@ p2 = y2 - y1
 D = SQRT(p1^2 + p2^2)  
 Escribir D  
 Fin
-
+```
 **Diagrama:**
 ![alt text](../Retos/Imagenes/distancia.png)
 
@@ -24,12 +25,13 @@ debe pedir con base en los metros que requiere. Represéntelo mediante un
 diagrama de flujo y pseudocódigo (1 pulgada = 0.0254 m).
 
 **Pseudocódigo:**  
+```
 Inicio  
 Leer cantidad_tela  
 cantidad_tela = cantidad_tela % 0,0254   
 Escribir cantidad_tela  
 Fin
-
+```
 **Diagrama:**
 ![alt text](../Retos/Imagenes/tela.png)
 
@@ -37,12 +39,13 @@ Fin
 Recuerde que por Pitágoras se tiene que: $C^2 = A^2 + B^2$.
 
 **Pseudocódigo:**  
+```
 Inicio  
 Leer A, B  
 C = SQRT(A^2 + B^2)  
 Escribir C  
 Fin
-
+```
 **Diagrama:**
 ![alt text](../Retos/Imagenes/pitagoras.png)
 
@@ -56,6 +59,7 @@ Fin
     - Represente la solución utilizando pseudocódigo claro y estructurado.
 
 **Pseudocódigo:**  
+```
 Inicio  
 Leer día, mes, año  
 Leer día_actual, mes_actual, año_actual  
@@ -71,11 +75,12 @@ si no mes_actual = mes
 Fin si  
 Escribir Edad  
 Fin  
-
+```
 5. Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar
 más de 50 horas no está permitido. Represente el algoritmo mediante pseudocódigo.
 
-**Pseudocódigo:**  
+**Pseudocódigo:** 
+``` 
 Inicio  
 Leer horas_trabajadas, pago_hora  
 sueldo = horas_trabajadas * pago_hora  
@@ -88,9 +93,9 @@ si no horas_trabajadas > 50
 Fin si  
 Escribir sueldo  
 Fin  
-
+```
 6. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.
-
+```
 Inicio  
 Leer N   
 ceros = 0  
@@ -110,10 +115,11 @@ Mientras contador <= N
 Fin mientras  
 Escribir ceros, menorcero, mayorcero  
 Fin  
-
+```
 7. Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.
 
 **Pseudocódigo:**  
+```
 Inicio  
 días = 1
 ahorro_diario = 3
@@ -126,10 +132,11 @@ mientras días <= 365
 Fin mientras  
 Escribir ahorro_total  
 Fin
-
+```
 8. Realice el algoritmo para determinar cuánto pagará una persona que adquiere N artículos, los cuales están de promoción. Considere que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si su precio es mayor a $100, pero menor a $200, el descuento es de 12%; de lo contrario, solo se le aplica 10%. Se debe saber cuál es el costo y el descuento que tendrá cada uno de los artículos y finalmente cuánto se pagará por todos los artículos obtenidos. Represente la solución mediante pseudocódigo.
 
 **pseudocódigo:**  
+```
 Inicio  
 Leer N  
 total = 0  
@@ -150,11 +157,11 @@ Mientras contador <= N
   Fin Mientras   
   Escribir total  
   Fin
-  
+  ```
 9. Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
     
     $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$
-
+```
 Inicio  
 Leer x, N  
 suma = 1  
@@ -167,10 +174,10 @@ Mientras contador < N
 Fin Mientras
 Escribir suma
 Fin
-
+```
 10. Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
 $Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
-
+```
 Inicio  
 Leer x, N  
 suma = x  
@@ -183,3 +190,4 @@ Mientras contador < N
 Fin Mientras  
 Escribir suma   
 Fin
+```
