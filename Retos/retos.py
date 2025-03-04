@@ -20,7 +20,7 @@ print("La distancia es:", D)
 cantidad_tela = float(input("Ingrese la cantidad de tela: "))
 
 # Calcular el residuo al dividir por 0.0254
-cantidad_restante = cantidad_tela % 0.0254
+cantidad_restante = cantidad_tela / 0.0254
 
 # Mostrar resultado
 print("La cantidad restante de tela es:", cantidad_restante)
